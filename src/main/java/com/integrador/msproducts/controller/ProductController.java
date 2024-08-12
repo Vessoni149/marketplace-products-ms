@@ -14,7 +14,10 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 @RestController
-@CrossOrigin(origins = "https://marketplace-pink-eta.vercel.app/", allowCredentials = "true")
+@CrossOrigin(origins = {
+        "https://marketplace-pink-eta.vercel.app/",
+        "https://marketplace-hgw3sm957-vessoni149s-projects.vercel.app/"
+        }, allowCredentials = "true")
 public class ProductController {
     @Autowired
     private IProductService productServ;
