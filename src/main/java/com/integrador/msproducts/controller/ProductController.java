@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
 
 @RestController
 @CrossOrigin(origins = {
-        "https://marketplace-qp7hjybwl-vessoni149s-projects.vercel.app/",
+        "https://marketplace-vessoni149s-projects.vercel.app/",
         }, allowCredentials = "true")
 public class ProductController {
     @Autowired
