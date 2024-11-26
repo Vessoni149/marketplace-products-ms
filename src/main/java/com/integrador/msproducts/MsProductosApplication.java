@@ -11,9 +11,6 @@ import java.util.function.Function;
 @SpringBootApplication
 public class MsProductosApplication {
 	public static void main(String[] args) {
-		// Cargar el archivo .env
-		Dotenv dotenv = Dotenv.load();
-		dotenv.entries().forEach(entry -> System.setProperty(entry.getKey(), entry.getValue()));
 
 		SpringApplication.run(MsProductosApplication.class, args);
 	}
