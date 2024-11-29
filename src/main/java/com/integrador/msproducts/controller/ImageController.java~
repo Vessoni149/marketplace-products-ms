@@ -19,9 +19,8 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/cloudinary")
-@CrossOrigin(origins = {"https://vess-commerse.firebaseapp.com/",
-                        "https://marketplace-vess-vessoni149s-projects.vercel.app/"
-                        })
+@CrossOrigin(origins = "https://vess-commerse.firebaseapp.com/",
+        "https://marketplace-vess-vessoni149s-projects.vercel.app/")
 public class ImageController {
     @Autowired
     CloudinaryService cloudinaryService;
